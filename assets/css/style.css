@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --colorOne: color: #006ba6;
+  --colorTwo: color: #0496ff;
+  --colorThree: color: #ffbc42;
+  --colorFour: #8f2d56;
+  --colorFive: color: #d81159;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--colorOne);
+  background-color: var(--colorFour);
+  l
+}
+
+
+
+header {
+
+}
+
+header h1 {
+
+}
+
+nav {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*:first-child 
+
+
+
+.flex-item:hover 
+
+
+
+@media screen and (max-width: 980px) {
+
+
+@media screen and (max-width: 768px) {*/
+
