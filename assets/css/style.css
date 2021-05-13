@@ -26,7 +26,6 @@ body {
 .nav-container {
   display:flex;
   flex-direction:column;
-  justify-content: space-around;
   width: 100vw;
   height:10rem;
   position:static;
@@ -36,13 +35,14 @@ body {
   flex-direction:row;
   align-items:flex-start;
   width: 100vw;
-  height: 100px;
+  height: 10rem;
   background-color: var(--colorTwo);
   z-index: 1;
   position:inherit
 }
 .name-container {
   display:flex;
+  position:relative;
   flex-direction: row;
   align-self: flex-start;
   margin-top: 1rem;
@@ -111,7 +111,7 @@ ul > li {
 
  .top-banner-text {
   display:flex;
-   
+  font-size:1.5rem;
   align-items: right;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -131,7 +131,7 @@ ul > li {
 .left-row {
   display:flex;
   height:100vh;
-  width:12rem;
+  width:150px;
   background-color: var(--colorFive);
   text-align:right;
   flex-direction:column;
@@ -141,22 +141,32 @@ ul > li {
 .about-me-header {
   text-align:inherit;
   font-size:2rem;
-  margin-right:1rem;
+  margin-right:2rem;
   color:inherit;  
+  text-align:inherit;
   margin-top:4rem;
   height:8rem;
 }
 
 .work-examples-header {
   text-align:inherit;
+  font-size:2rem;
   margin-right:2rem;
   color:inherit;  
+  text-align:inherit;
+  margin-top:4rem;
+  height:8rem;
 }
 
 .contact-me-header {
   text-align:inherit;
+  font-size:2rem;
   margin-right:2rem;
-  color:inherit;  
+  color:inherit; 
+  text-align:inherit; 
+  margin-top:8rem;
+  height:8rem;
+  margin-left:1rem;
 
 }
 
@@ -185,6 +195,26 @@ ul > li {
   font-style:bold;
   font-style:italic;
   font-size:1rem;
+}
+
+.work-examples-body {
+  margin-top:2rem;
+  margin-left:2rem;
+  margin-right:3rem;
+  margin-bottom:2rem;
+ 
+  max-width:50rem;
+  min-width:40rem;
+}
+
+.contact-information-body {
+  margin-top:2rem;
+  margin-left:2rem;
+  margin-right:3rem;
+  margin-bottom:2rem;
+ 
+  max-width:50rem;
+  min-width:40rem;
 }
 /*:first-child 
 

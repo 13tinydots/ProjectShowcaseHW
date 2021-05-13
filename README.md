@@ -9,4 +9,7 @@ Aligned navbar elements close to final position with image banner as needed. Cle
 
 Laid out `body` elements in newly created `body` container. Set text attributes in `about-me-body` CSS elements. Added `Lato` font from `fonts.google.com`. 5/12/2021 2:18p.
 
-Refined html elements to be more readable in source code. Converted measurements away from pixels and static measurements. 5/12/2021 2:50p
+Refined html elements to be more readable in source code. Converted measurements away from pixels and static measurements as much as feasible. 5/12/2021 2:50p
+
+Updates to general layout of sections, increased font size on the catchphrase on the upper right.
+
