@@ -11,5 +11,6 @@ Laid out `body` elements in newly created `body` container. Set text attributes 
 
 Refined html elements to be more readable in source code. Converted measurements away from pixels and static measurements as much as feasible. 5/12/2021 2:50p
 
-Updates to general layout of sections, increased font size on the catchphrase on the upper right.
+Updates to general layout of sections, increased font size on the catchphrase on the upper right. 5/12/2021 835p
 
+Updated general layout to `work-examples-body` for flexbox implementation. 5/13/2021 5:43a
