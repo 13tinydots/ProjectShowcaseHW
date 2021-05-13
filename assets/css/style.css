@@ -203,13 +203,27 @@ ul > li {
   margin-right:3rem;
   margin-bottom:2rem;
  
-  max-width:50rem;
-  min-width:40rem;
+  height:fit-content;
+  width:fit-content;
+  display:flex;
+  flex-direction: column;
 }
 
 .first-project-section{
-
-}
+  margin-top:1rem;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-bottom:2rem;
+  outline: 5px;
+  outline-color:var(--colorThree);
+  /* next step fix outline color on photo*/
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  height: 24rem;
+  background-image: url(../images/topproject.jpeg);
+  justify-content: space-around;
+  }
 
 .project-label {
 
@@ -236,7 +250,7 @@ ul > li {
 }
 
 .fifth-project {
-  
+
 }
 
 
