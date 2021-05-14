@@ -159,7 +159,7 @@ ul > li {
   color:inherit;  
   text-align:inherit;
   margin-top:4rem;
-  height:8rem;
+  height:44rem;
 }
 
 .contact-me-header {
@@ -215,7 +215,7 @@ ul > li {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1.0fr 0.4fr 0.4fr 0.4fr;
+  grid-template-rows: 1.5fr 0.8fr 0.8fr 0.05fr;
   gap: 0px 0px;
   grid-template-areas:
     "first-project first-project first-project first-project"
@@ -233,14 +233,12 @@ ul > li {
   margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
-
   display: flex;
   flex-direction: row;
   width: 47rem;
   height: 24rem;
   background-image: url(../images/topproject.jpeg);
   justify-content: left;
-  
   border-style:outset;
   border-color: var(--colorThree);
   border-radius: .25rem;
@@ -256,14 +254,12 @@ ul > li {
   margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
-
   display: flex;
   flex-direction: row;
   width: 22rem;
   height: 12rem;
   background-image: url(../images/cellphone.jpeg);
   justify-content: left;
-  
   border-style:outset;
   border-color: var(--colorThree);
   border-radius: .25rem;
@@ -279,14 +275,12 @@ ul > li {
   margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
-
   display: flex;
   flex-direction: row;
   width: 22rem;
   height: 12rem;
   background-image: url(../images/flower.jpeg);
   justify-content: left;
-  
   border-style:outset;
   border-color: var(--colorThree);
   border-radius: .25rem;
@@ -302,14 +296,12 @@ ul > li {
   margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
-
   display: flex;
   flex-direction: row;
   width: 22rem;
   height: 12rem;
   background-image: url(../images/fabric.jpeg);
   justify-content: left;
- 
   border-style:outset;
   border-color: var(--colorThree);
   border-radius: .25rem;
@@ -325,44 +317,92 @@ ul > li {
   margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
-
   display: flex;
   flex-direction: row;
   width: 22rem;
   height: 12rem;
   background-image: url(../images/cashloan.jpeg);
   justify-content: left;
-  
   border-style:outset;
   border-color: var(--colorThree);
   border-radius: .25rem;
-  z-index: 3;
-  
-}
-
-/* setting image labels aside while completing layout
-.first-project > .project-label {
- text-align: left;
- margin-bottom:3rem;
-
-}
-*/
-
-
+  }
 
 .contact-information-body {
   grid-area: contact-information-body;
+  text-decoration:none;
+  display:flex;
+  flex-direction: row;
+  list-style:none;
+  justify-content: space-around;
   margin-top:2rem;
   margin-left:2rem;
-  margin-right:3rem;
-  margin-bottom:2rem;
- 
-  max-width:50rem;
-  min-width:40rem;
-  font-size:1rem;
+  margin-right:0rem;
+  margin-bottom:0rem;
+  width:75vw;
+  height:5rem;
+
+  font-size:1.25rem;
+  max-width:45rem;
 }
 
+.phone-number {
+  display:flex;
+  flex-direction: column;
+  width:fit-content;
+  height:3rem;
+  justify-self: space-around;
+  border-style:solid;
+  border-radius:5px;
+  border-bottom-color: var(--colorFour);
+  border-top-color:var(--colorTwo);
+  border-right-color:var(--colorTwo);
+  border-left-color:var(--colorTwo);
+}
 
+.email-address {
+  display:flex;
+  flex-direction: column;
+  width:fit-content;
+  height:3rem;
+  justify-self: space-around;
+  border-style:solid;
+  border-radius:5px;
+  border-bottom-color: var(--colorFour);
+  border-top-color:var(--colorTwo);
+  border-right-color:var(--colorTwo);
+  border-left-color:var(--colorTwo);
+}
+
+.github-link {
+  display:flex;
+  flex-direction: column;
+  width:fit-content;
+  height:3rem;
+  justify-self: space-around;
+  border-style:solid;
+  border-radius:5px;
+  border-bottom-color: var(--colorFour);
+  border-top-color:var(--colorTwo);
+  border-right-color:var(--colorTwo);
+  border-left-color:var(--colorTwo);
+
+}
+
+.twitter-link {
+  display:flex;
+  flex-direction: column;
+  width:fit-content;
+  height:3rem;
+  justify-self: space-around;
+  border-style:solid;
+  border-radius:5px;
+  border-bottom-color: var(--colorFour);
+  border-top-color:var(--colorTwo);
+  border-right-color:var(--colorTwo);
+  border-left-color:var(--colorTwo);
+
+}
 
 /*:first-child 
 
