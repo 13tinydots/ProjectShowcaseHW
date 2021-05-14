@@ -18,3 +18,5 @@ Updated general layout to `work-examples-body` for flexbox implementation. 5/13/
 Added `topproject.jpeg` to main body and set attritbutes for `.first-project-section` of CSS. 5/13/2021 9:04a
 
 Refactored existing code to avoid CSS conflicts between classes. 5/14/2021 8:50a
+
+Replaced `my-work-body` flexbox layout schema with flexgrid. Refined alignment. 5/14/21 10:33a

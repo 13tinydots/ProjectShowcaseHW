@@ -17,10 +17,10 @@ body {
   padding: 0;
   font-family: 'Lato', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  color: var(--colorOne);
-  background-color: var(--colorFour);
-  max-width:965px;
-  min-width:762px;
+  background-color: var(--colorTwo);
+  
+  /*max-width:965px;
+  min-width:762px;*/
 }
 
 .nav-container {
@@ -96,7 +96,7 @@ ul > li {
     display:flex;
     flex-direction: row;
     width: 100vw;
-    height: fit-content;
+    
     position:inherit;
   }
 .top-banner {
@@ -130,8 +130,8 @@ ul > li {
 
 .left-row {
   display:flex;
-  height:100vh;
-  width:10rem;
+  height:500rem;
+  width:11rem;
   background-color: var(--colorFive);
   text-align:right;
   flex-direction:column;
@@ -171,13 +171,12 @@ ul > li {
   margin-top:8rem;
   height:8rem;
   margin-left:1rem;
-
 }
 
 .right-row {
   display:flex;
-  height:100vh;
-  width:100vw;
+  height:500rem;
+  width:52rem;
   background-color: var(--colorTwo);
   text-align:left;
   flex-direction:column;
@@ -204,37 +203,34 @@ ul > li {
 .my-work-body {
   margin-top:2rem;
   margin-left:2rem;
-  
   margin-bottom:2rem;
- 
   height:75vh;
   width:75vw;
   display:flex;
   flex-direction: column;
-  
-  z-index: 1;
+    z-index: 1;
   justify-items:start;
 }
 
-.first-project-section{
-  margin-top:0rem;
-  margin-left:0rem;
-  margin-right:0rem;
-  margin-bottom:0rem;
-  display: flex;
-  flex-direction: row;
-  width: 47rem;
-  height: 26rem;
-  justify-content: space-around;
-  border-radius: .25rem;
-  z-index: 1;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.0fr 0.4fr 0.4fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "first-project first-project first-project first-project"
+    "second-project second-project third-project third-project"
+    "fourth-project fourth-project fifth-project fifth-project"
+    "contact-information-body contact-information-body contact-information-body contact-information-body";
+  margin-left:1rem;
   }
 
 .first-project {
-  margin-top:0.5rem;
-  margin-left:0.5rem;
-  margin-right:0.5rem;
-  margin-bottom:0.5rem;
+  grid-area: first-project;
+  margin-top:1rem;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
   outline: 5px;
   outline-color:var(--colorThree);
 
@@ -249,38 +245,113 @@ ul > li {
   border-color: var(--colorThree);
   border-radius: .25rem;
   z-index: 3;
-background-color:var(--colorFive)
+
 }
 
+.second-project { 
+  grid-area: second-project; 
+  margin-top:1rem;
+  margin-left:1rem;
+  margin-right:0.25rem;
+  margin-bottom:1rem;
+  outline: 5px;
+  outline-color:var(--colorThree);
 
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  height: 12rem;
+  background-image: url(../images/cellphone.jpeg);
+  justify-content: left;
+  
+  border-style:outset;
+  border-color: var(--colorThree);
+  border-radius: .25rem;
+  z-index: 3;
+
+}
+
+.third-project { 
+  grid-area: third-project; 
+  margin-top:1rem;
+  margin-left:0.25rem;
+  margin-right:0.5rem;
+  margin-bottom:1rem;
+  outline: 5px;
+  outline-color:var(--colorThree);
+
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  height: 12rem;
+  background-image: url(../images/flower.jpeg);
+  justify-content: left;
+  
+  border-style:outset;
+  border-color: var(--colorThree);
+  border-radius: .25rem;
+  z-index: 3;
+  
+}
+
+.fourth-project { 
+  grid-area: fourth-project; 
+  margin-top: 1rem;
+  margin-left:1rem;
+  margin-right:0.25rem;
+  margin-bottom:1rem;
+  outline: 5px;
+  outline-color:var(--colorThree);
+
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  height: 12rem;
+  background-image: url(../images/fabric.jpeg);
+  justify-content: left;
+ 
+  border-style:outset;
+  border-color: var(--colorThree);
+  border-radius: .25rem;
+  z-index: 3;
+ 
+}
+
+.fifth-project { 
+  grid-area: fifth-project;
+  margin-top:1rem;
+  margin-left:0.25rem;
+  margin-right:0.5rem;
+  margin-bottom:1rem;
+  outline: 5px;
+  outline-color:var(--colorThree);
+
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  height: 12rem;
+  background-image: url(../images/cashloan.jpeg);
+  justify-content: left;
+  
+  border-style:outset;
+  border-color: var(--colorThree);
+  border-radius: .25rem;
+  z-index: 3;
+  
+}
+
+/* setting image labels aside while completing layout
 .first-project > .project-label {
  text-align: left;
  margin-bottom:3rem;
 
 }
+*/
 
-.secondary-projects-section {
-
-}
-
-.second-project {
-
-}
-
-.third-project {
-
-}
-
-.fourth-project {
-
-}
-
-.fifth-project {
-
-}
 
 
 .contact-information-body {
+  grid-area: contact-information-body;
   margin-top:2rem;
   margin-left:2rem;
   margin-right:3rem;
