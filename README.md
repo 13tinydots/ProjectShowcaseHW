@@ -22,3 +22,5 @@ Refactored existing code to avoid CSS conflicts between classes. 5/14/2021 8:50a
 Replaced `my-work-body` flexbox layout schema with flexgrid. Refined alignment. 5/14/21 10:33a
 
 Completed basic page layout including footer and sidebar alignment 5/14/21 11:52a
+
+Updated banner image under top nav and various alignment issues. 5/14/21 1:19p

@@ -5,11 +5,11 @@
 }
 
 :root {
-  --colorOne: #0496ff;
-  --colorTwo: #006ba6;
-  --colorThree: #ffbc42;
-  --colorFour: #d81159;
-  --colorFive: #8f2d56;
+  --colorOne: #848fa5;
+  --colorTwo: #4c4c47;
+  --colorThree: #e5dcc5;
+  --colorFour: #c14953;
+  --colorFive: #2d2d2a;
 }
 
 body {
@@ -26,9 +26,10 @@ body {
 .nav-container {
   display:flex;
   flex-direction:column;
+  align-content: flex-start;
   width: 100vw;
   height:10rem;
-  position:static;
+  margin-top:.5rem;
 }
 .upper-nav {
   display:flex;
@@ -44,21 +45,21 @@ body {
   display:flex;
   position:relative;
   flex-direction: row;
-  align-self: flex-start;
+  align-self:start;
   margin-top: 1rem;
   width: 325px;
   height: 45px;
   background-color: var(--colorThree);
- 
   z-index: 1;
   }
   
 .name {
-  align-self: center;
+   flex-direction: row;
+  margin-top:0.4rem;
   font-size: 2rem;
   font-weight:bold;
-  flex-direction: row;
-  text-indent: 1rem;
+  text-indent: 4.25rem;
+  
 /*drop shadow here*/
     }
  
@@ -68,6 +69,7 @@ body {
     justify-content:flex-end;
     height:3rem;
     width: 100vw;
+    max-width: 42rem;
     flex-direction:row;
     margin-top: 1rem; 
     /*drop shadow here*/
@@ -102,23 +104,43 @@ ul > li {
 .top-banner {
   display:flex;
   flex-direction:row-reverse;
-  z-index: 999;
+  
+  z-index: 990;
   width: 100vw;
-  height: 5rem;
-  margin-top: 0px;
-  background-image:url( ../images/banner.jpeg);
+  max-width:60.5rem;
+  height: 6rem;
+  margin-top: 1rem;
+  background-image:url( ../images/child1.jpeg);
   }
 
  .top-banner-text {
   display:flex;
+  flex-direction: row;
   font-size:1.5rem;
-  align-items: right;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   margin-right: 2rem;
-  color:var(--colorFour)
+  font-weight: bolder;
+  color:var(--colorFour);
+  text-shadow:var(--colorFive);
+  width:fit-content;
+  height:fit-content;
+  z-index: 999;
+  
     /*drop shadow here*/
   }
+
+.top-banner-text-background {
+  display: flex;
+  flex-direction: row;
+  justify-self:start;
+  background-color: var(--colorOne);
+  opacity: 0.75;
+  z-index: 999;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
 
 .main-container {
   background-color:var(--colorTwo);
@@ -132,45 +154,53 @@ ul > li {
   display:flex;
   height:500rem;
   width:11rem;
-  background-color: var(--colorFive);
-  text-align:right;
+  background-color:var(--colorFour);
+  text-align:center;
+  margin-right:1rem;
   flex-direction:column;
-  color:var(--colorThree)
+  color:var(--colorThree);
+
   }
 
 .about-me-header {
   text-align:inherit;
-  
   font-size:2rem;
-  
+  margin-right:inherit;
   color:inherit;  
   text-align:inherit;
-  margin-top:4rem;
-  height:8rem;
-  width:8rem;
+  margin-top:3rem;
+  height:6.5rem;
+  width:10.5rem;
   border-right:outset;
+  margin-right:inherit;
   border-color:var(--colorThree);
 }
 
 .my-work-header {
   text-align:inherit;
   font-size:2rem;
-  margin-right:2rem;
   color:inherit;  
   text-align:inherit;
-  margin-top:4rem;
-  height:44rem;
+  margin-right:inherit;
+  margin-top:8.5rem;
+  border-right:outset;
+  height:38rem;
+  width:10.5rem;
 }
 
 .contact-me-header {
-  text-align:inherit;
+  display:flex;
+  flex-direction: row-reverse;
+    
   font-size:2rem;
-  margin-right:2rem;
   color:inherit; 
-  text-align:inherit; 
+  
+  
   margin-top:8rem;
-  height:8rem;
+  height:8.5rem;
+  border-right:outset;
   margin-left:1rem;
+  width:9.5rem;
 }
 
 .right-row {
