@@ -24,3 +24,5 @@ Replaced `my-work-body` flexbox layout schema with flexgrid. Refined alignment. 
 Completed basic page layout including footer and sidebar alignment 5/14/21 11:52a
 
 Updated banner image under top nav and various alignment issues. 5/14/21 1:19p
+
+Mobile responsive media inquiries added 5/15/21 6:11a
