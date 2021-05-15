@@ -26,3 +26,5 @@ Completed basic page layout including footer and sidebar alignment 5/14/21 11:52
 Updated banner image under top nav and various alignment issues. 5/14/21 1:19p
 
 Mobile responsive media inquiries added 5/15/21 6:11a
+
+Further refinement to viewport responsive layouts and label work for projects.  Project links do not work as there are no projects currently to link to. Expect this to be final commit. 5/15/21 8:29a
