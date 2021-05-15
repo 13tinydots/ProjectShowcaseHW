@@ -28,3 +28,5 @@ Updated banner image under top nav and various alignment issues. 5/14/21 1:19p
 Mobile responsive media inquiries added 5/15/21 6:11a
 
 Further refinement to viewport responsive layouts and label work for projects.  Project links do not work as there are no projects currently to link to. Expect this to be final commit. 5/15/21 8:29a
+
+screenshot can be found at https://loom.com/i/9cda940a90df4630b3ef3b4ff62faf94
