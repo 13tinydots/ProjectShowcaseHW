@@ -1,6 +1,33 @@
 # ProjectShowcaseHW
 
-Project created for week 2 homework using HTML and CSS for the entire project.
+# Project Gallery (updated) 
+
+# Table of contents:
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+
+# Description
+My project gallery has been updated with the most recent projects I'm proud of. This represents many hours of working and looking over code.  I hope you enjoy it!
+
+# Installation: 
+You can open this using github pages.
+
+# Usage:
+Simply click the link provided at the bottom.
+
+# Contributing:
+No contributions required at this time.
+
+# Testing:
+This app requires no tests
+
+For more information contact the author at github.com/13tinydots.
+
+Commit notes:
+
 Added layout blocks to HTML and CSS as well as incorporated RESET CSS sheet, link to be fixed. 5/11/2021 10:34a
 
 Merged updated README.md into active branch, no changes to HTML or CSS. 5/11/2021 12:33p
