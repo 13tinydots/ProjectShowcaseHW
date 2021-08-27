@@ -1,5 +1,3 @@
-# ProjectShowcaseHW
-
 # Project Gallery (updated) 
 
 # Table of contents:
@@ -25,6 +23,8 @@ No contributions required at this time.
 This app requires no tests
 
 For more information contact the author at github.com/13tinydots.
+
+Link to the actual live page: https://13tinydots.github.io/ProjectShowcaseHW/
 
 Commit notes:
 
