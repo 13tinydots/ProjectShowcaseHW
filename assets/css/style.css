@@ -275,7 +275,7 @@ li > a:hover {
   flex-direction: row;
   width: 47rem;
   height: 24rem;
-  background-image: url(../images/topproject.jpeg);
+  background-image: url(../images/theIronThrone.png);
   justify-content: left;
   border-style:outset;
   border-color: var(--colorThree);
@@ -323,7 +323,7 @@ li > a:hover {
   flex-direction: row;
   width: 22rem;
   height: 12rem;
-  background-image: url(../images/cellphone.jpeg);
+  background-image: url(../images/OOPproject.jpeg);
   justify-content: left;
   border-style:outset;
   border-color: var(--colorThree);
@@ -360,7 +360,7 @@ li > a:hover {
   flex-direction: row;
   width: 22rem;
   height: 12rem;
-  background-image: url(../images/flower.jpeg);
+  background-image: url(../images/markDown.jpeg);
   justify-content: left;
   border-style:outset;
   border-color: var(--colorThree);
@@ -401,7 +401,7 @@ li > a:hover {
   flex-direction: row;
   width: 22rem;
   height: 12rem;
-  background-image: url(../images/fabric.jpeg);
+  background-image: url(../images/weatherGif.jpeg);
   justify-content: left;
   border-style:outset;
   border-color: var(--colorThree);
@@ -438,7 +438,7 @@ li > a:hover {
   flex-direction: row;
   width: 22rem;
   height: 12rem;
-  background-image: url(../images/cashloan.jpeg);
+  background-image: url(../images/comingSoon.jpeg);
   justify-content: left;
   border-style:outset;
   border-color: var(--colorThree);
